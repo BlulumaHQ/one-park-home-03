@@ -64,7 +64,7 @@ const Footer = () => {
             © {new Date().getFullYear()} One Park Living. All rights reserved.
           </p>
           <p className="text-xs font-body font-light text-primary-foreground/40">
-            Site by SwiftLift
+            Web Design by{" "}<a href="https://bluluma.com" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:opacity-80">Bluluma Design</a>
           </p>
         </div>
       </div>
