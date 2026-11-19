@@ -62,7 +62,7 @@ const Footer = () => {
         <div className="border-t border-primary-foreground/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs font-body font-light text-primary-foreground/40">
             © {new Date().getFullYear()} One Park Living. All rights reserved.
-          </p>
+          {" "}<span className="block mt-1 opacity-80" data-concept-note>Design concept for portfolio purposes only. Not the official website of One Park.</span></p>
           <p className="text-xs font-body font-light text-primary-foreground/40">
             Web Design by{" "}<a href="https://bluluma.com" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:opacity-80">Bluluma Design</a>
           </p>
